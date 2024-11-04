@@ -5,6 +5,7 @@ export default defineConfig({
   base: "/blog/",
   title: "Mike's Blog",
   description: "A blog for documenting development processes and notes.",
+  lastUpdated: true,
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -21,6 +22,7 @@ export default defineConfig({
             text: "筆記",
             items: [
               { text: "前言", link: "/notes/introduction" },
+              { text: "腦力風暴", link: "/notes/brainstorm" },
               { text: "使用技術", link: "/notes/tech" },
             ],
           },
